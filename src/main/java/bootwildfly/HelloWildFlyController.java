@@ -9,6 +9,6 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-        return ("Hello, SpringBoot on Wildfly");
+        return ("Spring Boot application deployed inside of a docker container orchestrated with Kubernetes in Red Hat OpenShift Cloud(S2I - Source to Image based builders). ");
     }
 }
